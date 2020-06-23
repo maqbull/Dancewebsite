@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+          background-color: rgb(131, 48, 48);
+          padding: 10px 14px;
+          font-family: 'Roboto Mono', monospace;
+        
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+margin-right: 64px;
+
+}
+#logo img{
+    
+    height: 42px;
+    filter: invert(1);
+}
+#navbar li{
+    list-style: none;
+    margin: 14px;
+}
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 25px;
+}
+#navbar li a:hover{
+    color: black;
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding-bottom: 40px ;
+    background: url('../static/bg.jpg') no-repeat center center/cover;
+    height: 425px;
+}
+.small {
+    padding-top: 10px;
+    font-size: 27px;
+}
+#missionSection{
+      height: 326px;
+      width: 67%;
+      display:block;
+      margin: auto;
+
+}
+
+#missionSection h2{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding-top: 12px;
+
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    margin: 23px 22px;
+    height: 209px;
+    background-color: rgb(250, 246, 245);
+}
+.card h3{
+    font-family: arial;
+    text-align: center;
+    margin: 15px 12px;
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img {
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 12px;
+
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+         padding: 0px 10px;
+}
+.card-content p {
+            font-size: 19px;
+}
+#sponsorsSection{
+    background-color: rgb(233, 178, 169);
+      height: 300px;
+}
+#sponsors{
+    height: 191px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage{
+    height:80% ;
+    margin: 17px;
+}
+#sponsorsSection h2{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
